@@ -1,10 +1,10 @@
 def hero():
     heros = ['Saktiman','Spiderman', 'Ironman', 'Batman', 'Thor', 'Hulk', 'Superman']
     print("Super heros are ......")
-    for hero in heros:
-        print(hero)
+    for h in heros:
+        print(h)
 
-
-hero()
+if __name__ == "__main__":
+    hero()
 
     
