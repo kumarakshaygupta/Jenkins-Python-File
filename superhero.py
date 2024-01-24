@@ -1,7 +1,10 @@
-heros = ['Saktiman','Spiderman', 'Ironman', 'Batman', 'Thor', 'Hulk', 'Superman']
+def hero():
+    heros = ['Saktiman','Spiderman', 'Ironman', 'Batman', 'Thor', 'Hulk', 'Superman']
+    print("Super heros are ......")
+    for hero in heros:
+        print(hero)
 
-print("Super heros are ......")
-for hero in heros:
-    print(hero)
+
+hero()
 
     
