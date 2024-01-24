@@ -5,6 +5,7 @@ def hero():
         print(h)
 
 if __name__ == "__main__":
+    print("Function is Started....")
     hero()
 
     
